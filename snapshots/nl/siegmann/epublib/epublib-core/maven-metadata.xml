@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>nl.siegmann.epublib</groupId>
+  <artifactId>epublib-core</artifactId>
+  <versioning>
+    <versions>
+      <version>3.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20110731155008</lastUpdated>
+  </versioning>
+</metadata>
