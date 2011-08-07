@@ -23,6 +23,21 @@
     <developerConnection>scm:git:https://skrat@github.com/skrat/sunflow.git</developerConnection>
     <url>https://github.com/skrat/sunflow</url>
   </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
   <dependencies>
     <dependency>
       <groupId>org.codehaus.janino</groupId>
